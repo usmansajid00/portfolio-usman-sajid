@@ -41,14 +41,14 @@ export default function Services() {
                   {iconMap[service.icon] || <Code size={40} />}
                 </div>
 
-                <h3 className="mb-3 font-heading text-2xl font-bold text-text">{service.title}</h3>
-                <p className="mb-6 text-textSecondary">{service.description}</p>
+                <h3 className="text-text mb-3 font-heading text-2xl font-bold">{service.title}</h3>
+                <p className="text-textSecondary mb-6">{service.description}</p>
 
                 <div className="mb-6">
-                  <h4 className="mb-3 text-sm font-semibold text-text">What's Included:</h4>
+                  <h4 className="text-text mb-3 text-sm font-semibold">What&apos;s Included:</h4>
                   <ul className="space-y-2">
                     {service.features.map((feature, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-textSecondary">
+                      <li key={i} className="text-textSecondary flex items-start gap-2 text-sm">
                         <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-accent" />
                         <span>{feature}</span>
                       </li>
@@ -60,7 +60,7 @@ export default function Services() {
                   {service.technologies.map((tech, i) => (
                     <span
                       key={i}
-                      className="rounded-md bg-surface px-3 py-1 text-xs font-medium text-textSecondary"
+                      className="text-textSecondary rounded-md bg-surface px-3 py-1 text-xs font-medium"
                     >
                       {tech}
                     </span>
@@ -69,7 +69,7 @@ export default function Services() {
 
                 <div className="flex items-center justify-between border-t border-border pt-6">
                   <div>
-                    <p className="text-sm text-textMuted">Starting at</p>
+                    <p className="text-textMuted text-sm">Starting at</p>
                     <p className="font-heading text-2xl font-bold text-accent">
                       {service.pricing.split(" ")[2]}
                     </p>

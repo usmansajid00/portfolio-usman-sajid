@@ -76,7 +76,7 @@ export default function Contact() {
             <Card variant="glass" className="p-5">
               {" "}
               {/* Consistent padding */}
-              <h3 className="mb-4 font-heading text-xl font-bold text-text md:text-2xl">
+              <h3 className="text-text mb-4 font-heading text-xl font-bold md:text-2xl">
                 Contact Information
               </h3>
               <div className="mb-4 flex items-center justify-between rounded-lg bg-surface/50 p-3 md:p-4">
@@ -85,8 +85,8 @@ export default function Contact() {
                     <Mail className="h-5 w-5 text-accent" />
                   </div>
                   <div className="min-w-0">
-                    <p className="text-xs text-textMuted md:text-sm">Email</p>
-                    <p className="truncate text-sm font-medium text-text md:text-base">
+                    <p className="text-textMuted text-xs md:text-sm">Email</p>
+                    <p className="text-text truncate text-sm font-medium md:text-base">
                       {contact.email}
                     </p>
                   </div>
@@ -99,7 +99,7 @@ export default function Contact() {
                   {copied ? (
                     <Check className="h-4 w-4 text-accent md:h-5 md:w-5" />
                   ) : (
-                    <Copy className="h-4 w-4 text-textSecondary md:h-5 md:w-5" />
+                    <Copy className="text-textSecondary h-4 w-4 md:h-5 md:w-5" />
                   )}
                 </button>
               </div>
@@ -113,8 +113,8 @@ export default function Contact() {
                   <Phone className="h-5 w-5 text-accent" />
                 </div>
                 <div>
-                  <p className="text-xs text-textMuted md:text-sm">Phone / WhatsApp</p>
-                  <p className="text-sm font-medium text-text md:text-base">{contact.phone}</p>
+                  <p className="text-textMuted text-xs md:text-sm">Phone / WhatsApp</p>
+                  <p className="text-text text-sm font-medium md:text-base">{contact.phone}</p>
                 </div>
               </a>
               <div className="mb-6 flex items-center gap-3 rounded-lg bg-surface/50 p-3 md:p-4">
@@ -122,32 +122,32 @@ export default function Contact() {
                   <MapPin className="h-5 w-5 text-accent" />
                 </div>
                 <div>
-                  <p className="text-xs text-textMuted md:text-sm">Location</p>
-                  <p className="text-sm font-medium text-text md:text-base">{contact.location}</p>
+                  <p className="text-textMuted text-xs md:text-sm">Location</p>
+                  <p className="text-text text-sm font-medium md:text-base">{contact.location}</p>
                 </div>
               </div>
               <div className="border-t border-border pt-6">
                 <div className="mb-3 flex items-center gap-2">
                   <motion.div
-                    className="h-3 w-3 rounded-full bg-success"
+                    className="bg-success h-3 w-3 rounded-full"
                     animate={{ scale: [1, 1.2, 1] }}
                     transition={{ duration: 2, repeat: Infinity }}
                   />
-                  <span className="text-sm font-medium text-success md:text-base">
+                  <span className="text-success text-sm font-medium md:text-base">
                     {contact.availability}
                   </span>
                 </div>
-                <p className="mb-2 text-xs text-textSecondary md:text-sm">
+                <p className="text-textSecondary mb-2 text-xs md:text-sm">
                   Response Time: {contact.responseTime}
                 </p>
-                <p className="text-xs text-textSecondary md:text-sm">
+                <p className="text-textSecondary text-xs md:text-sm">
                   Working Hours: {contact.workingHours} ({contact.timezone})
                 </p>
               </div>
             </Card>
 
             <Card variant="glass" className="p-5">
-              <h4 className="mb-4 font-heading text-lg font-semibold text-text">Follow Me</h4>
+              <h4 className="text-text mb-4 font-heading text-lg font-semibold">Follow Me</h4>
               <SocialLinks social={personalInfo.social} iconSize={24} />
             </Card>
           </motion.div>
@@ -157,7 +157,7 @@ export default function Contact() {
               {/* Decorative background element */}
               <div className="absolute right-0 top-0 h-32 w-32 -translate-y-1/2 translate-x-1/2 rounded-full bg-accent/5 blur-3xl" />
 
-              <h3 className="relative z-10 mb-6 font-heading text-xl font-bold text-text md:text-2xl">
+              <h3 className="text-text relative z-10 mb-6 font-heading text-xl font-bold md:text-2xl">
                 Send a Message
               </h3>
 
@@ -232,9 +232,9 @@ export default function Contact() {
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="rounded-lg border border-success/30 bg-success/10 p-4 text-center text-success"
+                    className="border-success/30 bg-success/10 text-success rounded-lg border p-4 text-center"
                   >
-                    ✨ Message sent successfully! I'll get back to you soon.
+                    ✨ Message sent successfully! I&apos;ll get back to you soon.
                   </motion.div>
                 )}
 
@@ -242,7 +242,7 @@ export default function Contact() {
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="rounded-lg border border-error/30 bg-error/10 p-4 text-center text-error"
+                    className="border-error/30 bg-error/10 text-error rounded-lg border p-4 text-center"
                   >
                     Something went wrong. Please try again or email me directly.
                   </motion.div>

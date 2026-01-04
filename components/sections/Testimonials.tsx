@@ -42,21 +42,21 @@ export default function Testimonials() {
                   <Quote size={20} className="text-accent/40" />
                 </div>
 
-                <p className="mb-6 line-clamp-4 flex-grow leading-relaxed text-textSecondary">
-                  "{testimonial.text}"
+                <p className="text-textSecondary mb-6 line-clamp-4 flex-grow leading-relaxed">
+                  &quot;{testimonial.text}&quot;
                 </p>
 
                 <div className="mt-auto border-t border-white/10 pt-4">
                   <div className="flex items-center gap-3">
-                    <div className="h-10 w-10 overflow-hidden rounded-full border border-accent/30 bg-surfaceLight">
+                    <div className="bg-surfaceLight h-10 w-10 overflow-hidden rounded-full border border-accent/30">
                       {/* Avatar placeholder if image fails or use user initials */}
                       <div className="flex h-full w-full items-center justify-center bg-accent/20 text-xs font-bold text-accent">
                         {testimonial.name.slice(0, 2).toUpperCase()}
                       </div>
                     </div>
                     <div>
-                      <h5 className="text-sm font-bold text-text">{testimonial.name}</h5>
-                      <p className="text-xs text-textMuted">{testimonial.position}</p>
+                      <h5 className="text-text text-sm font-bold">{testimonial.name}</h5>
+                      <p className="text-textMuted text-xs">{testimonial.position}</p>
                     </div>
                   </div>
                 </div>
