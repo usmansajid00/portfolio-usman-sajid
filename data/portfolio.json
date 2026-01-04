@@ -1,0 +1,1176 @@
+{
+  "personalInfo": {
+    "name": "Usman Sajid",
+    "title": "MERN Stack Developer",
+    "subtitle": "Specialized in Frontend Development",
+    "tagline": "Transforming Conceptual Ideas into Digital Presence",
+    "email": "usmansajid2517@gmail.com",
+    "phone": "+92 303 6582951",
+    "location": {
+      "city": "Lahore",
+      "state": "Punjab",
+      "country": "Pakistan",
+      "timezone": "PKT (UTC+5)"
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/usmansajid00/",
+      "github": "https://github.com/usmansajid00",
+      "twitter": "http://x.com/usmansajid_00",
+      "medium": "https://medium.com/@usmansajid2517",
+      "stackoverflow": "https://stackoverflow.com/users/21786787/usman-sajid",
+      "fiverr": "https://www.fiverr.com/usmansajid00",
+      "upwork": "https://www.upwork.com/freelancers/~011775f9810a4859cf"
+    },
+    "avatar": "https://res.cloudinary.com/dwzlyji4o/image/upload/v1767227750/usman-sajid-bg1_dquesv.jpg",
+    "resume": "/documents/usman-sajid-resume.pdf"
+  },
+  "about": {
+    "summary": "MERN Stack Developer with 1.5+ years of professional experience building responsive web applications for local and international clients. Proficient in React.js, Node.js, Express.js, and MongoDB with hands-on experience in frontend development, API integration, and modern web technologies. Strong foundation in JavaScript, component-based architecture, and collaborative development practices.",
+    "mission": "Transforming conceptual ideas into powerful digital experiences that drive business growth and user engagement.",
+    "yearsOfExperience": "1.5+",
+    "projectsCompleted": 16,
+    "clientSatisfaction": "98%",
+    "highlights": [
+      "Built 16+ production-ready web applications for international clients across US, UK, Canada, and Europe",
+      "Optimized application performance achieving 55% faster response times",
+      "Created 50+ reusable UI components reducing development time by 45%",
+      "Achieved 98% client satisfaction rate through effective project delivery",
+      "Specialized in converting complex concepts into user-friendly digital solutions"
+    ],
+    "availability": {
+      "status": "Available for Freelance Projects",
+      "preferredWorkType": ["Remote", "Freelance", "Contract"],
+      "fullTimeInterest": false,
+      "hourlyRate": "$8 USD",
+      "responseTime": "Within 24 hours",
+      "workingHours": "9 AM - 6 PM PKT (Mon-Fri)",
+      "timezone": "PKT (UTC+5)"
+    },
+    "futureLearning": [
+      "Cloud Engineering (AWS, Azure, GCP)",
+      "DevOps & CI/CD Pipelines",
+      "Kubernetes & Docker Orchestration",
+      "Serverless Architecture",
+      "Cloud Security Best Practices"
+    ]
+  },
+  "experience": [
+    {
+      "id": "exp-001",
+      "position": "Associate Software Engineer",
+      "company": "TharenSol",
+      "companyWebsite": null,
+      "location": "Lahore, Pakistan",
+      "type": "Full-time",
+      "startDate": "2024-07",
+      "endDate": null,
+      "current": true,
+      "duration": "7 months",
+      "description": "Developing scalable enterprise web applications and mentoring junior developers in a fast-paced software development environment",
+      "responsibilities": [
+        "Engineered scalable web applications using React.js, Next.js, and TypeScript, serving enterprise clients",
+        "Architected and implemented microservices-based backend solutions with Node.js and Express.js",
+        "Development of major product features from conception to deployment with Agile methodologies",
+        "Optimized database queries and implemented caching strategies, improving application response time by 55%",
+        "Mentored junior developers through code reviews, pair programming sessions, and technical documentation",
+        "Collaborated with product and design teams to translate business requirements into technical solutions"
+      ],
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Microservices",
+        "Redis"
+      ],
+      "achievements": [
+        "Improved application response time by 55%",
+        "Successfully mentored 3 junior developers",
+        "Delivered 5+ major features on schedule",
+        "Reduced technical debt by 30% through code refactoring"
+      ]
+    },
+    {
+      "id": "exp-002",
+      "position": "Associate Software Engineer",
+      "company": "KeepCoders",
+      "companyWebsite": null,
+      "location": "Lahore, Pakistan",
+      "type": "Full-time",
+      "startDate": "2023-08",
+      "endDate": "2024-06",
+      "current": false,
+      "duration": "11 months",
+      "description": "Developed enterprise SaaS applications with focus on component architecture, reusability, and performance optimization",
+      "responsibilities": [
+        "Developed enterprise-level SaaS applications using React.js, Redux Toolkit, and component-based architecture",
+        "Built responsive web applications using React.js, JavaScript ES6+, and modern CSS frameworks for 7+ projects",
+        "Created 50+ reusable UI components reducing development time by 45% and ensuring design consistency",
+        "Implemented advanced React patterns including custom hooks, higher-order components, and context API",
+        "Implemented React Router for single-page applications with dynamic routing and protected routes"
+      ],
+      "technologies": [
+        "React.js",
+        "Redux Toolkit",
+        "JavaScript ES6+",
+        "React Router",
+        "Tailwind CSS",
+        "Ant Design",
+        "Sass"
+      ],
+      "achievements": [
+        "Created 50+ reusable components",
+        "Reduced development time by 45%",
+        "Delivered 7+ successful projects",
+        "Improved code quality through comprehensive testing"
+      ]
+    },
+    {
+      "id": "exp-003",
+      "position": "Freelance MERN Developer",
+      "company": "Self-Employed (Fiverr & Upwork)",
+      "companyWebsite": "https://www.fiverr.com/usmansajid00",
+      "location": "Remote",
+      "type": "Freelance",
+      "startDate": "2023-02",
+      "endDate": "2023-07",
+      "current": false,
+      "duration": "6 months",
+      "description": "Delivered custom web solutions to international clients across US, UK, Canada, and Europe with high satisfaction rates",
+      "responsibilities": [
+        "Developed 8+ responsive web projects for international clients across the United States, United Kingdom, Canada, and Europe",
+        "Implemented modern JavaScript ES6+ features, async/await patterns, and TypeScript for type-safe development",
+        "Designed responsive user interfaces using Tailwind CSS, Bootstrap, and CSS Grid with mobile-first approach",
+        "Deployed applications on Vercel with CI/CD pipelines using GitHub Actions",
+        "Managed client communications, project timelines, and technical deliverables using Agile methodologies"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vercel",
+        "GitHub Actions"
+      ],
+      "achievements": [
+        "Achieved 98% client satisfaction rate",
+        "Reduced runtime errors by 60% with TypeScript",
+        "Achieved 95% cross-browser compatibility",
+        "Reduced deployment time by 70%",
+        "Completed all projects on time and within budget"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-001",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Superior University",
+      "location": "Lahore, Pakistan",
+      "startDate": "2019-09",
+      "endDate": "2023-12",
+      "gpa": null,
+      "achievements": [
+        "Completed comprehensive curriculum in software engineering and web development",
+        "Developed multiple full-stack projects using MERN stack",
+        "Participated in coding competitions and technical workshops",
+        "Built final year project demonstrating advanced web development skills"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": {
+      "languages": [
+        {
+          "name": "JavaScript",
+          "level": 90,
+          "years": 2.5,
+          "icon": "javascript"
+        },
+        {
+          "name": "TypeScript",
+          "level": 85,
+          "years": 1.5,
+          "icon": "typescript"
+        },
+        {
+          "name": "HTML5",
+          "level": 95,
+          "years": 3,
+          "icon": "html5"
+        },
+        {
+          "name": "CSS3",
+          "level": 90,
+          "years": 3,
+          "icon": "css3"
+        },
+        {
+          "name": "SCSS/Sass",
+          "level": 85,
+          "years": 2,
+          "icon": "sass"
+        }
+      ],
+      "frontend": [
+        {
+          "name": "React.js",
+          "level": 95,
+          "years": 2.5,
+          "category": "Framework",
+          "icon": "react"
+        },
+        {
+          "name": "Next.js",
+          "level": 85,
+          "years": 1.5,
+          "category": "Framework",
+          "icon": "nextjs"
+        },
+        {
+          "name": "Redux Toolkit",
+          "level": 90,
+          "years": 2,
+          "category": "State Management",
+          "icon": "redux"
+        },
+        {
+          "name": "React Router",
+          "level": 90,
+          "years": 2,
+          "category": "Routing",
+          "icon": "react-router"
+        },
+        {
+          "name": "Context API",
+          "level": 85,
+          "years": 2,
+          "category": "State Management",
+          "icon": "react"
+        }
+      ],
+      "styling": [
+        {
+          "name": "Tailwind CSS",
+          "level": 95,
+          "years": 2,
+          "icon": "tailwind"
+        },
+        {
+          "name": "Ant Design",
+          "level": 90,
+          "years": 2,
+          "icon": "antd"
+        },
+        {
+          "name": "Shadcn UI",
+          "level": 85,
+          "years": 1,
+          "icon": "shadcn"
+        },
+        {
+          "name": "Bootstrap",
+          "level": 90,
+          "years": 2.5,
+          "icon": "bootstrap"
+        },
+        {
+          "name": "CSS Grid",
+          "level": 90,
+          "years": 2,
+          "icon": "css-grid"
+        },
+        {
+          "name": "Flexbox",
+          "level": 95,
+          "years": 2.5,
+          "icon": "flexbox"
+        }
+      ],
+      "backend": [
+        {
+          "name": "Node.js",
+          "level": 85,
+          "years": 2,
+          "icon": "nodejs"
+        },
+        {
+          "name": "Express.js",
+          "level": 85,
+          "years": 2,
+          "icon": "express"
+        },
+        {
+          "name": "RESTful APIs",
+          "level": 90,
+          "years": 2,
+          "icon": "api"
+        },
+        {
+          "name": "Microservices",
+          "level": 75,
+          "years": 1,
+          "icon": "microservices"
+        }
+      ],
+      "database": [
+        {
+          "name": "MongoDB",
+          "level": 85,
+          "years": 2,
+          "icon": "mongodb"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 75,
+          "years": 1,
+          "icon": "postgresql"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "level": 90,
+          "years": 2.5,
+          "icon": "git"
+        },
+        {
+          "name": "GitHub",
+          "level": 90,
+          "years": 2.5,
+          "icon": "github"
+        },
+        {
+          "name": "VS Code",
+          "level": 95,
+          "years": 3,
+          "icon": "vscode"
+        },
+        {
+          "name": "Postman",
+          "level": 85,
+          "years": 2,
+          "icon": "postman"
+        },
+        {
+          "name": "Docker",
+          "level": 70,
+          "years": 1,
+          "icon": "docker"
+        },
+        {
+          "name": "Figma",
+          "level": 80,
+          "years": 1.5,
+          "icon": "figma"
+        }
+      ],
+      "cloud": [
+        {
+          "name": "Vercel",
+          "level": 90,
+          "years": 2,
+          "icon": "vercel"
+        },
+        {
+          "name": "Netlify",
+          "level": 85,
+          "years": 2,
+          "icon": "netlify"
+        },
+        {
+          "name": "AWS",
+          "level": 75,
+          "years": 1,
+          "icon": "aws"
+        }
+      ],
+      "other": [
+        {
+          "name": "Web3.js",
+          "level": 75,
+          "years": 1,
+          "icon": "web3"
+        },
+        {
+          "name": "Stripe Integration",
+          "level": 85,
+          "years": 1.5,
+          "icon": "stripe"
+        },
+        {
+          "name": "Chart.js",
+          "level": 80,
+          "years": 1.5,
+          "icon": "chartjs"
+        },
+        {
+          "name": "D3.js",
+          "level": 70,
+          "years": 1,
+          "icon": "d3"
+        },
+        {
+          "name": "OpenAI API",
+          "level": 80,
+          "years": 1,
+          "icon": "openai"
+        },
+        {
+          "name": "Socket.io",
+          "level": 80,
+          "years": 1,
+          "icon": "socketio"
+        }
+      ]
+    },
+    "soft": [
+      {
+        "name": "Problem Solving",
+        "level": 90,
+        "icon": "lightbulb"
+      },
+      {
+        "name": "Team Collaboration",
+        "level": 95,
+        "icon": "users"
+      },
+      {
+        "name": "Client Communication",
+        "level": 90,
+        "icon": "message-circle"
+      },
+      {
+        "name": "Project Management",
+        "level": 85,
+        "icon": "clipboard"
+      },
+      {
+        "name": "Agile Methodologies",
+        "level": 85,
+        "icon": "refresh-cw"
+      },
+      {
+        "name": "Code Review",
+        "level": 85,
+        "icon": "code"
+      },
+      {
+        "name": "Technical Documentation",
+        "level": 80,
+        "icon": "file-text"
+      },
+      {
+        "name": "Time Management",
+        "level": 90,
+        "icon": "clock"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "Accountability Intelligence",
+      "subtitle": "AI Assessment Platform",
+      "description": "AI-powered corporate assessment platform providing data-driven insights and performance analytics for enterprise clients with interactive dashboards and real-time reporting.",
+      "category": "AI/ML",
+      "featured": true,
+      "thumbnail": "/images/projects/accountability-thumbnail.jpg",
+      "images": [
+        "/images/projects/accountability-1.jpg",
+        "/images/projects/accountability-2.jpg",
+        "/images/projects/accountability-3.jpg"
+      ],
+      "technologies": [
+        "React.js",
+        "Redux",
+        "Django",
+        "PostgreSQL",
+        "OpenAI",
+        "Chart.js",
+        "D3.js",
+        "JWT"
+      ],
+      "features": [
+        "Engineered AI-powered assessment platform using React.js with Redux for state management",
+        "Built interactive data visualization dashboards using Chart.js and D3.js for performance analytics",
+        "Implemented user authentication and role-based permissions with JWT tokens",
+        "Optimized application performance achieving 50% faster load times through code optimization",
+        "Collaborated with Django backend team for seamless API integration and data flow",
+        "Created comprehensive reporting system with exportable analytics"
+      ],
+      "keyAchievements": [
+        "Achieved 50% faster load times",
+        "Built complex data visualization dashboards",
+        "Integrated OpenAI for intelligent assessments",
+        "Deployed live production application"
+      ],
+      "demoUrl": "https://accountabilityintelligence.com/",
+      "githubUrl": null,
+      "status": "Live",
+      "duration": "5 months",
+      "role": "Frontend Developer",
+      "teamSize": 6,
+      "clientType": "Enterprise"
+    },
+    {
+      "id": "proj-002",
+      "title": "Campus Care",
+      "subtitle": "School Management System",
+      "description": "Comprehensive school management platform streamlining administrative tasks, student records, attendance tracking, and parent-teacher communication for educational institutions.",
+      "category": "Education",
+      "featured": true,
+      "thumbnail": "/images/projects/campus-care-thumbnail.jpg",
+      "images": [
+        "/images/projects/campus-care-1.jpg",
+        "/images/projects/campus-care-2.jpg",
+        "/images/projects/campus-care-3.jpg"
+      ],
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Redux Toolkit"
+      ],
+      "features": [
+        "Developed multi-role dashboard for administrators, teachers, students, and parents",
+        "Implemented student information system with complete academic record management",
+        "Built attendance tracking system with real-time notifications to parents",
+        "Created grade management and report card generation functionality",
+        "Designed class scheduling system with conflict resolution",
+        "Integrated fee management and payment tracking system"
+      ],
+      "keyAchievements": [
+        "Complete role-based access control system",
+        "Automated report generation",
+        "Real-time notification system",
+        "Personal project showcasing full-stack capabilities"
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "status": "In Development",
+      "duration": "Ongoing",
+      "role": "Full Stack Developer",
+      "teamSize": 1,
+      "clientType": "Personal Project"
+    },
+    {
+      "id": "proj-003",
+      "title": "Aquifier UI",
+      "subtitle": "Web3 Decentralized Platform",
+      "description": "Decentralized application (DApp) frontend enabling secure blockchain interactions, wallet connectivity, and real-time transaction monitoring on the Ethereum network.",
+      "category": "Web3",
+      "featured": true,
+      "thumbnail": "/images/projects/aquifier-thumbnail.jpg",
+      "images": [
+        "/images/projects/aquifier-1.jpg",
+        "/images/projects/aquifier-2.jpg",
+        "/images/projects/aquifier-3.jpg"
+      ],
+      "technologies": [
+        "React.js",
+        "Ant Design",
+        "SCSS",
+        "Web3.js",
+        "Ethereum",
+        "TypeScript",
+        "MetaMask"
+      ],
+      "features": [
+        "Implemented responsive UI using Ant Design component library and custom SCSS styling",
+        "Integrated MetaMask wallet connectivity for secure blockchain transactions",
+        "Built smart contract interactions with real-time blockchain data visualization",
+        "Created reusable component architecture with TypeScript ensuring type safety",
+        "Optimized application performance with code splitting and lazy loading, reducing bundle size by 35%",
+        "Implemented transaction history tracking and wallet balance monitoring"
+      ],
+      "keyAchievements": [
+        "Reduced initial bundle size by 35%",
+        "Achieved seamless Web3 wallet integration",
+        "Built type-safe component architecture",
+        "Implemented secure blockchain interactions"
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "status": "Completed",
+      "duration": "3 months",
+      "role": "Frontend Developer",
+      "teamSize": 4,
+      "clientType": "Commercial"
+    },
+    {
+      "id": "proj-004",
+      "title": "Rizmek",
+      "subtitle": "Healthcare Management Platform",
+      "description": "Comprehensive healthcare platform connecting patients with medical professionals, featuring appointment scheduling, medical records management, and HIPAA-compliant secure communication.",
+      "category": "Healthcare",
+      "featured": true,
+      "thumbnail": "/images/projects/rizmek-thumbnail.jpg",
+      "images": [
+        "/images/projects/rizmek-1.jpg",
+        "/images/projects/rizmek-2.jpg",
+        "/images/projects/rizmek-3.jpg"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "Socket.io",
+        "JWT"
+      ],
+      "features": [
+        "Developed patient portal and provider dashboard with role-based access control",
+        "Implemented appointment scheduling system with automated email notifications",
+        "Built medical records management with secure data handling and encryption",
+        "Created real-time chat functionality using Socket.io for patient-doctor communication",
+        "Integrated Stripe payment gateway for secure payment processing",
+        "Designed prescription management and medication tracking system"
+      ],
+      "keyAchievements": [
+        "Serving 500+ active users",
+        "99.9% application uptime",
+        "HIPAA-compliant data handling",
+        "Secure real-time communication"
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "status": "Completed",
+      "duration": "4 months",
+      "role": "Full Stack Developer",
+      "teamSize": 5,
+      "clientType": "Healthcare"
+    },
+    {
+      "id": "proj-005",
+      "title": "Neurative.ai",
+      "subtitle": "Voice Synthesis Platform",
+      "description": "Advanced text-to-speech platform supporting multiple languages and voice characteristics, empowering content creators with high-quality AI-generated voice synthesis.",
+      "category": "AI/ML",
+      "featured": true,
+      "thumbnail": "/images/projects/neurative-thumbnail.jpg",
+      "images": [
+        "/images/projects/neurative-1.jpg",
+        "/images/projects/neurative-2.jpg",
+        "/images/projects/neurative-3.jpg"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "OpenAI",
+        "AWS",
+        "S3",
+        "CloudFront",
+        "Stripe",
+        "Ant Design"
+      ],
+      "features": [
+        "Built user interface with real-time audio preview and waveform visualization",
+        "Implemented file upload system and batch audio conversion functionality",
+        "Created subscription-based access control with Stripe integration",
+        "Developed user dashboard for account management and usage analytics",
+        "Deployed on AWS with S3 storage and CloudFront CDN for optimized content delivery",
+        "Integrated multiple voice models and language support"
+      ],
+      "keyAchievements": [
+        "Multi-language voice synthesis support",
+        "Real-time audio processing pipeline",
+        "Scalable AWS infrastructure",
+        "Subscription-based monetization"
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "status": "Completed",
+      "duration": "4 months",
+      "role": "Full Stack Developer",
+      "teamSize": 4,
+      "clientType": "SaaS"
+    },
+    {
+      "id": "proj-006",
+      "title": "Full-Stack E-Commerce Platform",
+      "subtitle": "Complete Online Shopping Solution",
+      "description": "Feature-rich e-commerce platform with advanced product catalog, intelligent recommendations, secure payment processing, and comprehensive admin dashboard.",
+      "category": "E-Commerce",
+      "featured": true,
+      "thumbnail": "/images/projects/ecommerce-thumbnail.jpg",
+      "images": [
+        "/images/projects/ecommerce-1.jpg",
+        "/images/projects/ecommerce-2.jpg",
+        "/images/projects/ecommerce-3.jpg"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "Redux",
+        "Tailwind CSS"
+      ],
+      "features": [
+        "Built complete e-commerce solution with dynamic product catalog and shopping cart",
+        "Implemented user authentication and comprehensive admin dashboard for inventory management",
+        "Integrated Stripe payment gateway with secure checkout process",
+        "Developed responsive design with advanced filtering and search functionality",
+        "Created product recommendation engine based on user behavior and purchase history",
+        "Built order tracking and email notification system"
+      ],
+      "keyAchievements": [
+        "99.9% application uptime",
+        "Secure payment processing",
+        "Advanced product recommendation system",
+        "Complete admin management system"
+      ],
+      "demoUrl": null,
+      "githubUrl": null,
+      "status": "Completed",
+      "duration": "3 months",
+      "role": "Full Stack Developer",
+      "teamSize": 1,
+      "clientType": "Commercial"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-001",
+      "name": "Sarah Mitchell",
+      "position": "Product Manager",
+      "company": "HealthTech Solutions Inc.",
+      "location": "Toronto, Canada",
+      "avatar": "/images/testimonials/sarah-mitchell.jpg",
+      "rating": 5,
+      "text": "Usman delivered exceptional work on our healthcare platform. His attention to detail and ability to translate complex requirements into elegant solutions was impressive. The real-time chat feature and appointment system work flawlessly. He completed the project ahead of schedule and was always responsive to our feedback. Highly recommend for any healthcare-related web development!",
+      "project": "Healthcare Management Platform",
+      "projectCategory": "Healthcare",
+      "date": "2023-11",
+      "verified": true
+    },
+    {
+      "id": "test-002",
+      "name": "James Peterson",
+      "position": "CTO",
+      "company": "DataViz Analytics",
+      "location": "London, United Kingdom",
+      "avatar": "/images/testimonials/james-peterson.jpg",
+      "rating": 5,
+      "text": "Working with Usman on our AI assessment platform was a great experience. He has deep expertise in React and data visualization libraries. The dashboards he built using Chart.js and D3.js exceeded our expectations. His code quality is top-notch, well-documented, and maintainable. The performance optimizations he implemented made a significant difference. Will definitely work with him again!",
+      "project": "AI Assessment Platform",
+      "projectCategory": "AI/ML",
+      "date": "2024-03",
+      "verified": true
+    },
+    {
+      "id": "test-003",
+      "name": "Michael Chen",
+      "position": "Founder",
+      "company": "BlockChain Ventures",
+      "location": "Vancouver, Canada",
+      "avatar": "/images/testimonials/michael-chen.jpg",
+      "rating": 5,
+      "text": "Usman's expertise in Web3 development is outstanding. He built our DApp frontend with seamless MetaMask integration and smart contract interactions. His understanding of blockchain technology and ability to create intuitive user interfaces for complex Web3 features is remarkable. The TypeScript implementation ensured code reliability. Professional, skilled, and delivers quality work on time!",
+      "project": "Web3 DApp Platform",
+      "projectCategory": "Web3/Blockchain",
+      "date": "2024-01",
+      "verified": true
+    },
+    {
+      "id": "test-004",
+      "name": "Emily Robertson",
+      "position": "Operations Director",
+      "company": "RetailPro Solutions",
+      "location": "Birmingham, United Kingdom",
+      "avatar": "/images/testimonials/emily-robertson.jpg",
+      "rating": 5,
+      "text": "We hired Usman to build our e-commerce platform and he delivered beyond expectations. The admin dashboard he created is incredibly user-friendly and powerful. The Stripe payment integration works perfectly, and the product recommendation engine has increased our sales. His attention to security and performance optimization was evident throughout. Excellent communication and professional work ethic!",
+      "project": "E-Commerce Platform",
+      "projectCategory": "E-Commerce",
+      "date": "2023-09",
+      "verified": true
+    },
+    {
+      "id": "test-005",
+      "name": "Ahmed Hassan",
+      "position": "CEO",
+      "company": "EduTech Innovations",
+      "location": "Karachi, Pakistan",
+      "avatar": "/images/testimonials/ahmed-hassan.jpg",
+      "rating": 5,
+      "text": "Usman developed our school management system and it has transformed how we manage our institution. The multi-role dashboard is intuitive and the attendance tracking with parent notifications is exactly what we needed. He understood our requirements perfectly and suggested valuable improvements. Very professional, delivers clean code, and provides excellent post-launch support. Highly recommended for educational platforms!",
+      "project": "School Management System",
+      "projectCategory": "Education",
+      "date": "2024-06",
+      "verified": true
+    },
+    {
+      "id": "test-006",
+      "name": "David Thompson",
+      "position": "Marketing Director",
+      "company": "VoiceGen Media",
+      "location": "Manchester, United Kingdom",
+      "avatar": "/images/testimonials/david-thompson.jpg",
+      "rating": 5,
+      "text": "The voice synthesis platform Usman built for us is phenomenal. The real-time audio preview and waveform visualization features work beautifully. He integrated the OpenAI API seamlessly and the AWS deployment is robust and scalable. His expertise in handling complex audio processing workflows and creating intuitive UIs is impressive. Great developer who truly understands modern web technologies!",
+      "project": "Voice Synthesis Platform",
+      "projectCategory": "AI/SaaS",
+      "date": "2024-04",
+      "verified": true
+    }
+  ],
+  "certifications": [],
+  "services": [
+    {
+      "id": "service-001",
+      "title": "Frontend Development",
+      "icon": "code",
+      "description": "Building responsive, performant web applications using React.js, Next.js, and modern CSS frameworks with pixel-perfect UI implementation",
+      "features": [
+        "React.js & Next.js Development",
+        "Responsive UI/UX Implementation",
+        "State Management (Redux, Context API)",
+        "Component Architecture & Reusability",
+        "Performance Optimization & Code Splitting"
+      ],
+      "technologies": ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+      "pricing": "Starting at $8/hour"
+    },
+    {
+      "id": "service-002",
+      "title": "Full Stack Development",
+      "icon": "layers",
+      "description": "End-to-end web application development with MERN stack, from database design to deployment with modern DevOps practices",
+      "features": [
+        "RESTful API Development",
+        "Database Design & Optimization",
+        "Authentication & Authorization",
+        "Payment Gateway Integration",
+        "Cloud Deployment & CI/CD"
+      ],
+      "technologies": ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "AWS"],
+      "pricing": "Starting at $8/hour"
+    },
+    {
+      "id": "service-003",
+      "title": "Web3 Development",
+      "icon": "blockchain",
+      "description": "Building decentralized applications with blockchain integration, smart contract interactions, and secure wallet connectivity",
+      "features": [
+        "DApp Frontend Development",
+        "Wallet Integration (MetaMask, WalletConnect)",
+        "Smart Contract Interactions",
+        "Web3.js & Ethers.js Implementation",
+        "Blockchain Data Visualization"
+      ],
+      "technologies": ["Web3.js", "Ethereum", "React.js", "TypeScript", "SCSS"],
+      "pricing": "Starting at $8/hour"
+    },
+    {
+      "id": "service-004",
+      "title": "UI/UX Implementation",
+      "icon": "palette",
+      "description": "Translating designs into pixel-perfect, accessible, and responsive web interfaces with attention to detail and user experience",
+      "features": [
+        "Figma to Code Conversion",
+        "Responsive Design Implementation",
+        "Cross-Browser Compatibility",
+        "Accessibility Standards (WCAG)",
+        "Animation & Micro-interactions"
+      ],
+      "technologies": ["HTML5", "CSS3", "Tailwind CSS", "Ant Design", "Sass"],
+      "pricing": "Starting at $8/hour"
+    },
+    {
+      "id": "service-005",
+      "title": "API Development & Integration",
+      "icon": "server",
+      "description": "Creating robust RESTful APIs and integrating third-party services for seamless data flow and functionality",
+      "features": [
+        "RESTful API Architecture",
+        "Third-party API Integration",
+        "Stripe Payment Integration",
+        "OpenAI API Implementation",
+        "Authentication & Security"
+      ],
+      "technologies": ["Node.js", "Express.js", "MongoDB", "Stripe", "OpenAI"],
+      "pricing": "Starting at $8/hour"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "1.5+",
+      "icon": "clock",
+      "color": "accent"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "16+",
+      "icon": "check-circle",
+      "color": "accent"
+    },
+    {
+      "label": "Client Satisfaction",
+      "value": "98%",
+      "icon": "smile",
+      "color": "accent"
+    },
+    {
+      "label": "Code Commits",
+      "value": "2000+",
+      "icon": "git-commit",
+      "color": "accent"
+    }
+  ],
+  "blog": [],
+  "contact": {
+    "email": "usmansajid2517@gmail.com",
+    "phone": "+92 303 6582951",
+    "location": "Lahore, Punjab, Pakistan",
+    "availability": "Available for freelance projects",
+    "preferredContact": "email",
+    "responseTime": "Within 24 hours",
+    "workingHours": "9 AM - 6 PM PKT (Mon-Fri)",
+    "timezone": "PKT (UTC+5)",
+    "calendly": null,
+    "whatsapp": "+923036582951"
+  },
+  "seo": {
+    "metaTitle": "Usman Sajid - MERN Stack Developer | React.js & Node.js Expert in Lahore",
+    "metaDescription": "Experienced MERN Stack Developer specializing in React.js, Next.js, and Node.js. Building scalable web applications for clients worldwide. 1.5+ years professional experience. Available for freelance projects at $8/hour.",
+    "keywords": [
+      "MERN Stack Developer",
+      "React.js Developer",
+      "Frontend Developer",
+      "Full Stack Developer",
+      "Node.js Developer",
+      "Web Developer Lahore",
+      "JavaScript Developer",
+      "TypeScript Developer",
+      "Next.js Developer",
+      "Freelance Developer Pakistan",
+      "Web3 Developer",
+      "Blockchain Developer",
+      "Healthcare Platform Developer",
+      "E-Commerce Developer",
+      "AI Integration Developer"
+    ],
+    "ogImage": "https://res.cloudinary.com/dwzlyji4o/image/upload/v1767227750/usman-sajid-bg1_dquesv.jpg",
+    "twitterHandle": "@usmansajid_00",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Usman Sajid",
+      "jobTitle": "MERN Stack Developer",
+      "url": "https://usmansajid.dev",
+      "sameAs": [
+        "https://www.linkedin.com/in/usmansajid00/",
+        "https://github.com/usmansajid00",
+        "http://x.com/usmansajid_00",
+        "https://medium.com/@usmansajid2517",
+        "https://stackoverflow.com/users/21786787/usman-sajid"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lahore",
+        "addressRegion": "Punjab",
+        "addressCountry": "Pakistan"
+      }
+    }
+  },
+  "theme": {
+    "mode": "dark",
+    "colors": {
+      "primary": "#E5E5E5",
+      "secondary": "#A3A3A3",
+      "accent": "#10B981",
+      "background": "#0A0A0A",
+      "surface": "#171717",
+      "surfaceLight": "#262626",
+      "text": "#FAFAFA",
+      "textSecondary": "#A3A3A3",
+      "textMuted": "#737373",
+      "border": "#262626",
+      "error": "#EF4444",
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "info": "#3B82F6"
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, #10B981 0%, #059669 100%)",
+      "secondary": "linear-gradient(135deg, #262626 0%, #171717 100%)",
+      "accent": "linear-gradient(135deg, #10B981 0%, #34D399 100%)",
+      "hero": "linear-gradient(180deg, #0A0A0A 0%, #171717 100%)"
+    },
+    "shadows": {
+      "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.5)",
+      "md": "0 4px 6px -1px rgba(0, 0, 0, 0.5)",
+      "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.5)",
+      "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.5)",
+      "accent": "0 0 20px rgba(16, 185, 129, 0.3)"
+    },
+    "fonts": {
+      "body": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "heading": "'Poppins', 'Inter', sans-serif",
+      "mono": "'Fira Code', 'JetBrains Mono', monospace"
+    },
+    "borderRadius": {
+      "sm": "0.375rem",
+      "md": "0.5rem",
+      "lg": "0.75rem",
+      "xl": "1rem",
+      "full": "9999px"
+    },
+    "animations": {
+      "duration": {
+        "fast": "150ms",
+        "normal": "300ms",
+        "slow": "500ms"
+      },
+      "easing": {
+        "default": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "in": "cubic-bezier(0.4, 0, 1, 1)",
+        "out": "cubic-bezier(0, 0, 0.2, 1)",
+        "inOut": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    }
+  },
+  "settings": {
+    "showGithubStats": true,
+    "showBlog": false,
+    "showTestimonials": true,
+    "showCertifications": false,
+    "enableContactForm": true,
+    "enableNewsletter": false,
+    "showAvailabilityStatus": true,
+    "enableAnimations": true,
+    "showProjectFilters": true,
+    "showSkillLevels": true,
+    "enableDarkMode": true,
+    "showSocialLinks": true,
+    "enableChatWidget": false,
+    "showResumeDownload": true,
+    "enableScrollAnimations": true,
+    "showBackToTop": true
+  },
+  "navigation": {
+    "main": [
+      {
+        "label": "Home",
+        "path": "/",
+        "icon": "home"
+      },
+      {
+        "label": "About",
+        "path": "#about",
+        "icon": "user"
+      },
+      {
+        "label": "Experience",
+        "path": "#experience",
+        "icon": "briefcase"
+      },
+      {
+        "label": "Projects",
+        "path": "#projects",
+        "icon": "folder"
+      },
+      {
+        "label": "Skills",
+        "path": "#skills",
+        "icon": "code"
+      },
+      {
+        "label": "Testimonials",
+        "path": "#testimonials",
+        "icon": "message-square"
+      },
+      {
+        "label": "Contact",
+        "path": "#contact",
+        "icon": "mail"
+      }
+    ],
+    "cta": {
+      "label": "Hire Me",
+      "path": "#contact",
+      "variant": "primary"
+    }
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Usman Sajid",
+    "title": "MERN Stack Developer",
+    "subtitle": "Specialized in Frontend Development",
+    "tagline": "Transforming Conceptual Ideas into Digital Presence",
+    "description": "I build exceptional digital experiences that combine beautiful design with powerful functionality. Specializing in React.js, Node.js, and modern web technologies.",
+    "image": "https://res.cloudinary.com/dwzlyji4o/image/upload/v1767227750/usman-sajid-bg1_dquesv.jpg",
+    "cta": [
+      {
+        "label": "View My Work",
+        "path": "#projects",
+        "variant": "primary"
+      },
+      {
+        "label": "Get In Touch",
+        "path": "#contact",
+        "variant": "secondary"
+      }
+    ],
+    "stats": [
+      {
+        "value": "1.5+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "16+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "98%",
+        "label": "Client Satisfaction"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2024 Usman Sajid. All rights reserved.",
+    "links": [
+      {
+        "label": "Privacy Policy",
+        "path": "/privacy"
+      },
+      {
+        "label": "Terms of Service",
+        "path": "/terms"
+      }
+    ],
+    "social": true,
+    "newsletter": false
+  },
+  "animations": {
+    "pageTransitions": true,
+    "scrollReveal": true,
+    "hoverEffects": true,
+    "cursorFollow": false,
+    "particleBackground": false,
+    "typingEffect": true
+  },
+  "features": {
+    "multiLanguage": false,
+    "analytics": true,
+    "seo": true,
+    "pwa": false,
+    "lazyLoading": true,
+    "imageoOptimization": true,
+    "codeHighlighting": false,
+    "searchFunctionality": false
+  }
+}

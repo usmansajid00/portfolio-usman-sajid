@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Modern Dark Theme Variables (Deep Violet/Blue Tint) */
+    --background: 240 10% 4%; /* #09090b */
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 263.4 70% 50.4%; /* #6d28d9 Violet */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 240 4% 16%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 263.4 70% 50.4%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 263.4 70% 50.4%;
+
+    --radius: 0.5rem;
+
+    /* Charts for dashboard elements if needed */
+    --chart-1: 263 70% 50%;
+    --chart-2: 280 65% 60%;
+    --chart-3: 190 90% 50%;
+    --chart-4: 320 70% 60%;
+    --chart-5: 250 80% 65%;
+  }
+
+  /* Keeping .dark class mainly for compatibility, but default is already dark */
+  .dark {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 263.4 70% 50.4%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 263.4 70% 50.4%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground scroll-smooth bg-background tracking-tight;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glassmorphism Utilities */
+  .glass {
+    @apply border border-white/10 bg-black/40 shadow-lg backdrop-blur-xl;
+  }
+
+  .glass-card {
+    @apply glass rounded-xl transition-all duration-300 hover:bg-black/50;
+  }
+
+  /* Typography */
+  .heading-gradient {
+    @apply bg-gradient-to-r from-violet-500 via-purple-500 to-cyan-500 bg-clip-text font-bold text-transparent;
+  }
+
+  /* Container */
+  .container-custom {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply relative overflow-hidden py-20 md:py-32;
+  }
+
+  /* Interactive Elements */
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center rounded-lg bg-gradient-to-r from-violet-600 to-indigo-600 px-8 py-3 font-medium text-white shadow-lg shadow-violet-500/25 transition-all duration-300 hover:scale-[1.02] hover:shadow-violet-500/40 active:scale-[0.98];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-lg border border-white/10 bg-white/5 px-8 py-3 text-white backdrop-blur-sm transition-all duration-300 hover:border-white/20 hover:bg-white/10;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:border-violet-500/50 hover:shadow-lg hover:shadow-violet-500/10;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-white/10 transition-colors hover:bg-violet-500/50;
+  }
+}
+
+/* Animations */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(124, 58, 237, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(124, 58, 237, 0.2);
+  }
+}
+
+.animate-glow {
+  animation: glow 3s infinite;
+}
