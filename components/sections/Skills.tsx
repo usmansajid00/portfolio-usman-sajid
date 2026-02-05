@@ -1,12 +1,11 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { skills } from "@/lib/portfolio-data";
-import { useInView } from "@/hooks/useInView";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
 // React Icons Imports
@@ -115,8 +114,6 @@ const skillCategories = [
 ];
 
 export default function Skills() {
-  const ref = useRef<HTMLElement>(null);
-  const inView = useInView(ref);
   const [activeCategory, setActiveCategory] = useState("all");
 
   const allSkills = Object.entries(skills.technical).flatMap(([category, skills]) =>
@@ -129,13 +126,14 @@ export default function Skills() {
       : skills.technical[activeCategory as keyof typeof skills.technical] || [];
 
   return (
-    <section id="skills" ref={ref} className="section bg-background">
+    <section id="skills" className="section bg-background">
       <div className="container-custom">
         <SectionHeading title="Technical Skills" subtitle="Technologies and tools I work with" />
 
         <motion.div
           initial="hidden"
-          animate={inView ? "visible" : "hidden"}
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
           className="mb-12 flex flex-wrap justify-center gap-3"
         >
@@ -145,7 +143,7 @@ export default function Skills() {
             className={`rounded-lg px-6 py-2 font-medium transition-all ${
               activeCategory === "all"
                 ? "bg-gradient-primary text-white shadow-accent"
-                : "bg-surface text-textSecondary hover:text-accent"
+                : "text-textSecondary bg-surface hover:text-accent"
             }`}
           >
             All Skills
@@ -158,7 +156,7 @@ export default function Skills() {
               className={`rounded-lg px-6 py-2 font-medium transition-all ${
                 activeCategory === cat.key
                   ? "bg-gradient-primary text-white shadow-accent"
-                  : "bg-surface text-textSecondary hover:text-accent"
+                  : "text-textSecondary bg-surface hover:text-accent"
               }`}
             >
               {cat.label}
@@ -167,8 +165,10 @@ export default function Skills() {
         </motion.div>
 
         <motion.div
+          key={activeCategory}
           initial="hidden"
-          animate={inView ? "visible" : "hidden"}
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
           className="mb-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
@@ -177,13 +177,13 @@ export default function Skills() {
               <Card variant="gradient" hover className="flex h-full flex-col justify-between p-5">
                 <div>
                   <div className="mb-4 flex items-center gap-3">
-                    <div className="rounded-lg bg-surfaceLight p-2 ring-1 ring-white/10">
+                    <div className="bg-surfaceLight rounded-lg p-2 ring-1 ring-white/10">
                       {iconMap[skill.icon || "default"] || iconMap.default}
                     </div>
                     <div>
-                      <h4 className="font-semibold text-text">{skill.name}</h4>
+                      <h4 className="text-text font-semibold">{skill.name}</h4>
                       {skill.years && (
-                        <span className="text-xs text-textMuted">{skill.years}y exp</span>
+                        <span className="text-textMuted text-xs">{skill.years}y exp</span>
                       )}
                     </div>
                   </div>
@@ -196,10 +196,11 @@ export default function Skills() {
 
         <motion.div
           initial="hidden"
-          animate={inView ? "visible" : "hidden"}
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
         >
-          <h3 className="mb-8 text-center font-heading text-2xl font-bold text-text">
+          <h3 className="text-text mb-8 text-center font-heading text-2xl font-bold">
             Soft Skills
           </h3>
           <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
@@ -213,8 +214,8 @@ export default function Skills() {
                   <div className="mb-3 text-accent">
                     <FaCode size={24} />
                   </div>
-                  <p className="text-lg font-medium text-text">{skill.name}</p>
-                  <div className="mt-2 text-sm text-textSecondary">{skill.level}% Proficiency</div>
+                  <p className="text-text text-lg font-medium">{skill.name}</p>
+                  <div className="text-textSecondary mt-2 text-sm">{skill.level}% Proficiency</div>
                 </Card>
               </motion.div>
             ))}

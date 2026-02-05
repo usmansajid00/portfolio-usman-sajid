@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Copy, Check, Send } from "lucide-react";
 import { Card } from "@/components/ui/card";
@@ -11,13 +11,10 @@ import { Label } from "@/components/ui/label";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { SocialLinks } from "@/components/shared/SocialLinks";
 import { contact, personalInfo } from "@/lib/portfolio-data";
-import { useInView } from "@/hooks/useInView";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 import { copyToClipboard } from "@/lib/utils";
 
 export default function Contact() {
-  const ref = useRef<HTMLElement>(null);
-  const inView = useInView(ref);
   const [copied, setCopied] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -59,7 +56,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" ref={ref} className="section bg-surface/30">
+    <section id="contact" className="section bg-surface/30">
       <div className="container-custom">
         <SectionHeading
           title="Let's Work Together"
@@ -68,9 +65,10 @@ export default function Contact() {
 
         <motion.div
           initial="hidden"
-          animate={inView ? "visible" : "hidden"}
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
           variants={staggerContainer}
-          className="mx-auto grid max-w-6xl gap-6 md:gap-12 lg:grid-cols-2" // Reduced gap on mobile
+          className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-2" // Increased gap for better separation
         >
           <motion.div variants={staggerItem} className="space-y-6">
             <Card variant="glass" className="p-5">

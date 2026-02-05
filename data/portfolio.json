@@ -2,7 +2,7 @@
   "personalInfo": {
     "name": "Usman Sajid",
     "title": "MERN Stack Developer",
-    "subtitle": "Specialized in Frontend Development",
+    "subtitle": "Specialized in Frontend & AI Integration",
     "tagline": "Transforming Conceptual Ideas into Digital Presence",
     "email": "usmansajid2517@gmail.com",
     "phone": "+92 303 6582951",
@@ -25,9 +25,9 @@
     "resume": "/documents/usman-sajid-resume.pdf"
   },
   "about": {
-    "summary": "MERN Stack Developer with 1.5+ years of professional experience building responsive web applications for local and international clients. Proficient in React.js, Node.js, Express.js, and MongoDB with hands-on experience in frontend development, API integration, and modern web technologies. Strong foundation in JavaScript, component-based architecture, and collaborative development practices.",
+    "summary": "MERN Stack Developer with 2+ years of professional experience building responsive web applications for local and international clients. Proficient in React.js, Node.js, Express.js, and MongoDB with hands-on experience in frontend development, API integration, and modern web technologies. Strong foundation in JavaScript, component-based architecture, and collaborative development practices.",
     "mission": "Transforming conceptual ideas into powerful digital experiences that drive business growth and user engagement.",
-    "yearsOfExperience": "1.5+",
+    "yearsOfExperience": "2+",
     "projectsCompleted": 16,
     "clientSatisfaction": "98%",
     "highlights": [
@@ -39,7 +39,11 @@
     ],
     "availability": {
       "status": "Available for Freelance Projects",
-      "preferredWorkType": ["Remote", "Freelance", "Contract"],
+      "preferredWorkType": [
+        "Remote",
+        "Freelance",
+        "Contract"
+      ],
       "fullTimeInterest": false,
       "hourlyRate": "$8 USD",
       "responseTime": "Within 24 hours",
@@ -840,7 +844,13 @@
         "Component Architecture & Reusability",
         "Performance Optimization & Code Splitting"
       ],
-      "technologies": ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux"
+      ],
       "pricing": "Starting at $8/hour"
     },
     {
@@ -855,7 +865,13 @@
         "Payment Gateway Integration",
         "Cloud Deployment & CI/CD"
       ],
-      "technologies": ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "AWS"],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "PostgreSQL",
+        "AWS"
+      ],
       "pricing": "Starting at $8/hour"
     },
     {
@@ -870,7 +886,13 @@
         "Web3.js & Ethers.js Implementation",
         "Blockchain Data Visualization"
       ],
-      "technologies": ["Web3.js", "Ethereum", "React.js", "TypeScript", "SCSS"],
+      "technologies": [
+        "Web3.js",
+        "Ethereum",
+        "React.js",
+        "TypeScript",
+        "SCSS"
+      ],
       "pricing": "Starting at $8/hour"
     },
     {
@@ -885,7 +907,13 @@
         "Accessibility Standards (WCAG)",
         "Animation & Micro-interactions"
       ],
-      "technologies": ["HTML5", "CSS3", "Tailwind CSS", "Ant Design", "Sass"],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Ant Design",
+        "Sass"
+      ],
       "pricing": "Starting at $8/hour"
     },
     {
@@ -900,7 +928,13 @@
         "OpenAI API Implementation",
         "Authentication & Security"
       ],
-      "technologies": ["Node.js", "Express.js", "MongoDB", "Stripe", "OpenAI"],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Stripe",
+        "OpenAI"
+      ],
       "pricing": "Starting at $8/hour"
     }
   ],
@@ -1109,10 +1143,10 @@
     "greeting": "Hi, I'm",
     "name": "Usman Sajid",
     "title": "MERN Stack Developer",
-    "subtitle": "Specialized in Frontend Development",
+    "subtitle": "Specialized in MERN Stack & AI Integration",
     "tagline": "Transforming Conceptual Ideas into Digital Presence",
     "description": "I build exceptional digital experiences that combine beautiful design with powerful functionality. Specializing in React.js, Node.js, and modern web technologies.",
-    "image": "https://res.cloudinary.com/dwzlyji4o/image/upload/v1767227750/usman-sajid-bg1_dquesv.jpg",
+    "image": "https://res.cloudinary.com/dwzlyji4o/image/upload/v1770265642/Photo_sgaz14.png",
     "cta": [
       {
         "label": "View My Work",
@@ -1127,7 +1161,7 @@
     ],
     "stats": [
       {
-        "value": "1.5+",
+        "value": "2+",
         "label": "Years Experience"
       },
       {
@@ -1135,7 +1169,7 @@
         "label": "Projects Completed"
       },
       {
-        "value": "98%",
+        "value": "95%",
         "label": "Client Satisfaction"
       }
     ]

@@ -107,7 +107,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${poppins.variable} ${firaCode.variable} bg-background font-sans text-text antialiased`}
+        className={`${inter.variable} ${poppins.variable} ${firaCode.variable} text-text bg-background font-sans antialiased`}
       >
         {children}
       </body>

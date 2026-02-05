@@ -125,7 +125,7 @@ export default function Hero() {
 
             <motion.h1
               variants={staggerItem}
-              className="mb-4 font-heading text-4xl font-bold leading-tight text-text sm:text-5xl md:text-6xl lg:text-7xl"
+              className="text-text mb-4 font-heading text-4xl font-bold leading-tight sm:text-5xl md:text-6xl lg:text-7xl"
             >
               {typedText}
               <motion.span
@@ -137,7 +137,7 @@ export default function Hero() {
 
             <motion.h2
               variants={staggerItem}
-              className="mb-6 bg-gradient-to-r from-textSecondary to-textMuted bg-clip-text font-heading text-xl font-semibold text-transparent md:text-3xl"
+              className="from-textSecondary to-textMuted mb-6 bg-gradient-to-r bg-clip-text font-heading text-xl font-semibold text-transparent md:text-3xl"
             >
               {hero.title}
             </motion.h2>
@@ -151,7 +151,7 @@ export default function Hero() {
 
             <motion.p
               variants={staggerItem}
-              className="mb-8 max-w-2xl text-base leading-relaxed text-textSecondary md:text-xl"
+              className="text-textSecondary mb-8 max-w-2xl text-base leading-relaxed md:text-xl"
             >
               {hero.description}
             </motion.p>
@@ -186,10 +186,10 @@ export default function Hero() {
             >
               {hero.stats.map((stat: { value: string; label: string }, index: number) => (
                 <motion.div key={index} variants={staggerItem} className="text-center lg:text-left">
-                  <div className="text-foreground mb-1 font-heading text-2xl font-bold md:text-4xl">
+                  <div className="mb-1 font-heading text-2xl font-bold text-foreground md:text-4xl">
                     <Counter endValue={stat.value} />
                   </div>
-                  <p className="text-xs text-textMuted md:text-base">{stat.label}</p>
+                  <p className="text-textMuted text-xs md:text-base">{stat.label}</p>
                 </motion.div>
               ))}
             </motion.div>
@@ -215,7 +215,7 @@ export default function Hero() {
                   fill
                   className="object-cover"
                   priority
-                  sizes="(max-width: 768px) 300px, (max-width: 1024px) 384px, 500px"
+                  sizes="(max-width: 768px) 300px, (max-width: 1024px) 384px, 400px"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               </div>
@@ -229,7 +229,7 @@ export default function Hero() {
         onClick={() => handleScroll("about")}
         animate={bounceAnimation}
       >
-        <span className="text-sm font-medium uppercase tracking-widest text-textMuted">Scroll</span>
+        <span className="text-textMuted text-sm font-medium uppercase tracking-widest">Scroll</span>
         <ChevronDown className="h-5 w-5 text-accent" />
       </motion.div>
     </section>
